@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento denuncia formal</title>
+</head>
+<body>
+    <h2>Documento formal de denuncia</h2>
+
+    <form action="/action_page.php">
+        <p>Fecha del robo</p>
+        <input type="date"><br>
+        <p>¿A que hora se produjo el robo?</p>
+        <input type="time"><br>
+        <p>¿De qué color era el vehículo?</p>
+        <input type="color"><br>
+        <p>¿Valor aproximado?</p>
+        <input type="range" value="24" min="0" max="100">
+      <br>
+        <p>¿Que clase de bicicleta fue sustraida?</p>
+        <label for="bikes">Paseo:</label>
+        <select id="bikes" name="bikes">
+          <option value="blank"></option>
+          <option value="Señorial">Señorial</option>
+          <option value="Anti-plebeyos">Anti-plebeyos</option>
+          <option value="PorEncimaDelHombro">PorEncimaDelHombro</option>
+          </select>
+
+          <br><br><br>
+
+          <label for="bikes">Montaña:</label>
+        <select id="bikes" name="bikes">
+          <option value="blank"></option>
+          <option value="Gamusinos">Gamusinos</option>
+          <option value="Hueleflores premium">Hueleflores premium</option>
+          <option value="Fango lover">Fango lover</option>
+          </select>
+
+          <br><br><br>
+
+          <label for="bikes">Carreras:</label>
+        <select id="bikes" name="bikes">
+          <option value="blank"></option>
+          <option value="Metroymedio">Metroymedio</option>
+          <option value="3 de la tarde. Fluorescente edition">Anti-plebeyos</option>
+          <option value="Grupitors">Grupitors</option>
+          </select>
+
+          <p>Que accesorios llevaba montados?</p>
+
+          <label for="accesorios">Elige el/los accesorio/s:</label><br><br>
+    <select name="accesorios" id="accesorios" multiple>
+    <option value="Ruedines">Ruedines</option>
+    <option value="Pegatinas">Pegatinas</option>
+    <option value="Cestita">Cestita</option>
+    <option value="Bomba de aire">Bomba de aire</option>
+    <option value="Timbre">Timbre</option>
+    <option value="Foco">Foco</option>
+  </select>
+
+   <br><br><br>
+
+  
+
+
+
+<label for="ice-cream-choice">Marca:</label>
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+<datalist id="ice-cream-flavors">
+    <option value="Orbea">
+    <option value="BH">
+    <option value="cannondale">
+    <option value="canyon">
+    <option value="pinarello">
+        
+        
+    </datalist>
+
+    <br><br><br>
+
+    <input type="submit" value="Submit">
+
+
+</form>
+
+    </body>
+    
+</body>
+</html>
